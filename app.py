@@ -784,7 +784,7 @@ def keep_alive():
     import urllib.request
     import time
     time.sleep(30)
-    url = os.environ.get('RENDER_EXTERNAL_URL', 'https://ash-backend-7ys6.onrender.com')
+    url = os.environ.get('RENDER_EXTERNAL_URL', 'https://neopanc3.onrender.com')
     ping_url = f"{url.rstrip('/')}/api/status"
     print(f"Starting keep-alive background thread pinging: {ping_url}")
     while True:

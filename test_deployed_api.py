@@ -2,7 +2,7 @@ import requests
 import json
 
 def test_deployed():
-    url = "https://ash-backend-7ys6.onrender.com/predict"
+    url = "https://neopanc3.onrender.com/predict"
     payload = {
         'age': 70.0,
         'bmi': 30.9,

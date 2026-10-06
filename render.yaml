@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: ash-backend
+    name: neopanc3
     runtime: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app -b 0.0.0.0:$PORT
